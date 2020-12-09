@@ -103,9 +103,9 @@ syn keyword logLevelCritical CRITICAL CRIT fatal Fatal FATAL
 syn keyword logLevelError Error error Error Error ERROR ERR fail Fail failed Failed FAILED fails failure Failure FAILURE SEVERE Unable
 syn keyword logLevelWarning warning Warning WARNING warn Warn WARN
 syn keyword logLevelNotice NOTICE
-syn keyword logLevelInfo info Info INFO
-syn keyword logLevelDebug DEBUG FINE
-syn keyword logLevelTrace TRACE FINER FINEST
+syn keyword logLevelInfo info Info INFO State
+syn keyword logLevelDebug DEBUG FINE Entry Exit
+syn keyword logLevelTrace TRACE FINER FINEST Message
 
 
 " Highlight links
